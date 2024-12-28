@@ -6,10 +6,6 @@
 	objectVersion = 70;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		BF02CE0FDB546DEA0D6DB78F /* Pods_Blu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F794F25E707F381D89FD07 /* Pods_Blu.framework */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		3E472E752D1CEBB00049DAE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -28,16 +24,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		016D6FEA107F9259FE3D3C0D /* Pods-Blu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blu.debug.xcconfig"; path = "Target Support Files/Pods-Blu/Pods-Blu.debug.xcconfig"; sourceTree = "<group>"; };
-		35F794F25E707F381D89FD07 /* Pods_Blu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E472E5E2D1CEBAF0049DAE6 /* Blu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E472E742D1CEBB00049DAE6 /* BluTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E472E7E2D1CEBB00049DAE6 /* BluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9975F4C757E2A43198A36DF5 /* Pods-Blu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blu.release.xcconfig"; path = "Target Support Files/Pods-Blu/Pods-Blu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3E472E862D1CEBB00049DAE6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		3E472E862D1CEBB00049DAE6 /* Exceptions for "Blu" folder in "Blu" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -47,9 +40,40 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3E472E602D1CEBAF0049DAE6 /* Blu */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3E472E862D1CEBB00049DAE6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Blu; sourceTree = "<group>"; };
-		3E472E772D1CEBB00049DAE6 /* BluTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = BluTests; sourceTree = "<group>"; };
-		3E472E812D1CEBB00049DAE6 /* BluUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = BluUITests; sourceTree = "<group>"; };
+		3E472E602D1CEBAF0049DAE6 /* Blu */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3E472E862D1CEBB00049DAE6 /* Exceptions for "Blu" folder in "Blu" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Blu;
+			sourceTree = "<group>";
+		};
+		3E472E772D1CEBB00049DAE6 /* BluTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = BluTests;
+			sourceTree = "<group>";
+		};
+		3E472E812D1CEBB00049DAE6 /* BluUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = BluUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF02CE0FDB546DEA0D6DB78F /* Pods_Blu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +109,6 @@
 				3E472E812D1CEBB00049DAE6 /* BluUITests */,
 				3E472E5F2D1CEBAF0049DAE6 /* Products */,
 				FAB901B2D0AE508003286E01 /* Pods */,
-				CEFD6C1F481A11D9764EAE33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,19 +122,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEFD6C1F481A11D9764EAE33 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				35F794F25E707F381D89FD07 /* Pods_Blu.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		FAB901B2D0AE508003286E01 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				016D6FEA107F9259FE3D3C0D /* Pods-Blu.debug.xcconfig */,
-				9975F4C757E2A43198A36DF5 /* Pods-Blu.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -124,11 +136,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E472E872D1CEBB00049DAE6 /* Build configuration list for PBXNativeTarget "Blu" */;
 			buildPhases = (
-				8348B2E8FA6C3FF771617D45 /* [CP] Check Pods Manifest.lock */,
 				3E472E5A2D1CEBAF0049DAE6 /* Sources */,
 				3E472E5B2D1CEBAF0049DAE6 /* Frameworks */,
 				3E472E5C2D1CEBAF0049DAE6 /* Resources */,
-				BE8F6310D14B8BFBB055BFBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,48 +262,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		8348B2E8FA6C3FF771617D45 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Blu-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BE8F6310D14B8BFBB055BFBF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Blu/Pods-Blu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Blu/Pods-Blu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Blu/Pods-Blu-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		3E472E5A2D1CEBAF0049DAE6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -334,7 +302,6 @@
 /* Begin XCBuildConfiguration section */
 		3E472E882D1CEBB00049DAE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 016D6FEA107F9259FE3D3C0D /* Pods-Blu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -364,7 +331,6 @@
 		};
 		3E472E892D1CEBB00049DAE6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9975F4C757E2A43198A36DF5 /* Pods-Blu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
